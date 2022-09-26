@@ -1,0 +1,111 @@
+body,
+html {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(30, 39, 48, 0.5) 0%, #1E2730 100%),
+    url('../images/background.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  max-width: 600px;
+  text-align: center;
+  font-size: 4.8rem;
+  font-family: 'Lora', serif;
+  color: #DAAE84;
+  letter-spacing: 0.03em;
+  line-height: 130%;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.description {
+  max-width: 600px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #DAAE84;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  bottom: 41px;
+}
+
+.menu {
+  width: calc(100% - 55px);
+  top: 40px;
+  left: 25px;
+  background-color: #161F28;
+  border-radius: 8px;
+  box-shadow: 0px 2px 25px rgba(11, 18, 25, 0.5);
+  gap: 102px;
+  display: flex;
+  position: fixed;
+  justify-content: left;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.menuClasses {
+  display: flex;
+  width: 100%;
+}
+
+.list,
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+}
+
+.link a {
+  display: block;
+  padding: 5px 15px;
+  color: #DAAE84;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  font-size: 120%;
+  text-align: left;
+  text-transform: uppercase;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text {
+  display: none;
+}
