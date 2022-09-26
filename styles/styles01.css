@@ -1,1 +1,80 @@
-1
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin: 50px;
+    padding-top: 20px;
+    background-color: #655d5d;
+    width: 260px;
+    height: 420px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #f3d8d8;
+}
+
+#resultado {
+    margin-left: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f3d8d8;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#valores {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+#valores input {
+    height: 20px;
+    width: 100px;
+    margin-right: 17px;
+    margin-bottom: 10px;
+}
+
+#valores button {
+    width: 100px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#botoes button {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+#teclado {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#c4 button {
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 50px;
+    height: 158px;
+}
+
+button {
+    cursor: pointer;
+}

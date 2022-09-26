@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question 02</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="../styles/styles02.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    02
+  <h1>TRIÂNGULO</h1>
+  <div class="triangle">
+    <div class="container">
+      <h2>QUESTÃO 2</h2>
+      <div id="resultado">
+      Considerando que A (3, 1), B (–2, 2) e C (4, –4) pontos de um triângulo, a alternativa que corresponde ao seu tipo é:
+      </div>
+      <div id="alternativas">
+        <!--<div><input id="a" value="1" type="checkbox"><label>Equilátero</label></div>
+        <div><input id="b" value="2" type="checkbox"><label>Retângulo e isósceles</label></div>
+        <div><input id="c" value="3" type="checkbox"><label>Retângulo e não isósceles</label></div>
+        <div id="d"><input id="d" value="4" type="checkbox"><label>Isósceles e não retângulo</label></div>
+        <div><input id="e" value="5" type="checkbox"><label>n.d.a</label></div>-->
+        <strong id="a">A) Equilátero</strong>
+        <strong id="b">B) Retângulo e isósceles</strong>
+        <strong id="c">C) Retângulo e não isósceles</strong>
+        <strong id="d">D) Isósceles e não retângulo</strong>
+        <strong id="e">E) n.d.a</strong>
+        <div><p>*Os valores foram convertidos visando a ampliação da imagem</p></div>
+      </div>
+      <canvas id="t"></canvas>
+      <div id="botao">
+        <button id="exibir">Ver triângulo</button>
+        <button id="calcular">Ver resposta</button>
+        <button id="responder">Ver cálculo</button>
+      </div>
+    </div>
+    <div class="resposta">
+      <h3>Resposta:</h3>
+      <div id="d1"></div>
+      <div id="d2"></div>
+      <div id="d3"></div>
+      <div id="r"></div>
+      <div id="explicacao"></div>
+    </div>
+    <div class="q3">
+      <div id="resultadoq2">
+        Uma editora pretende fazer uma reimpressão de um de seus livros. 
+        <br>
+        A direção da editora sabe que o gasto com papel representa 60% do custo de reimpressão, e que as despesas com a gráfica representam os 40% restantes. 
+        <br>
+        Dentro da programação da editora, no momento em que ela realizar a reimpressão, o preço do papel e os custos com a gráfica terão sofrido reajustes de 25,9% e 32,5%, respectivamente.
+        <br>
+        O custo para a reimpressão de cada livro, nos preços atuais, é de R$ 100,00.
+        <br>
+        Calcule qual será o custo, em real, para a reimpressão de cada livro com os reajustes estimados de custo de papel e despesas com a gráfica.
+      </div>
+      <div id="respostaq2"></div>
+      <button id="responderq2">Responder</button>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
+
 </html>

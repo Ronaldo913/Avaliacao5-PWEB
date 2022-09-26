@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question 01</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Question 01</title>
+
+  <link href="../styles/styles01.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    01
+   <!--
+  Utilizando JavaScript, crie uma aplicação HTML que receba do usuário, 2 coordenadas A e B e calcule a distância entre os dois pontos destas coordenadas. O cálculo da distância deve ser feito em um módulo distance.js. Insira o link da sua implementação no repl.it.
+  -->
+  <div class="container">
+    <h2>DISTÂNCIA ENTRE PONTOS</h2>
+    <div id="resultado">
+      Resultado:
+      <div id="result"></div>
+    </div>
+    <div id="valores">
+      <div>
+        <input id="valor-A" placeholder="ponto A">
+        <input id="valor-B" placeholder="ponto B">
+      </div>
+      <div><button id="enviar">ENVIAR</button></div>
+    </div>
+    <div id="teclado">
+      <div id="botoes">
+        <div id="c1">
+          <button id="b1" value="1">1</button>
+          <button id="b2" value="2">2</button>
+          <button id="b3" value="3">3</button>
+        </div>
+        <div id="c2">
+          <button id="b4" value="4">4</button>
+          <button id="b5" value="5">5</button>
+          <button id="b6" value="6">6</button>
+        </div>
+        <div id="c3">
+          <button id="b7" value="7">7</button>
+          <button id="b8" value="8">8</button>
+          <button id="b9" value="9">9</button>
+        </div>
+      </div>
+      <div id="botao">
+        <div id="c4">
+          <button id="b0" value="0">0</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="../scripts/question01/script01.js"></script>
+  <script src="../scripts/question01/script01.js"></script>
+
 </body>
+
 </html>

@@ -1,1 +1,122 @@
-1
+html, body {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    background-color: pink;
+  }
+  
+  body h1{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid black;
+  }
+  
+  .triangle {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .container, .resposta, .q3 {
+    border: 2px solid black;
+    margin: 2%;
+    padding-top: 20px;
+    background-color: #655d5d;
+    width: 400px;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  
+  h2{
+    margin-top: 10px;
+    text-align: center;
+    color: #f3d8d8;
+  }
+  
+  p{
+    font-size: 10px;
+    color: pink;
+    text-transform: uppercase;
+  }
+  
+  #t{
+    justify-content: start;
+  }
+  
+  #resultado{
+    margin-left: 20px;
+    text-align: justify;
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f3d8d8;
+    margin-bottom: 10px;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  #resultadoq2{
+    width: 340px;
+    height: 300px;
+    padding: 10px;
+    background-color: #f3d8d8;
+    margin-bottom: 10px;
+    color: black;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  #alternativas {
+    margin-left: 15px;
+    color: #e198a4;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #botao, #respostaq2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+   #respostaq2 {
+     margin: 20px;
+     text-transform: uppercase;
+   }
+  
+  #botao button, #responderq2{
+    background-color: pink;
+    margin: 20px;
+  }
+  
+  .resposta, #respostaq2 {
+    text-align: justify;
+    color: #f3d8d8;
+    font-weight: bold;
+  }
+  
+  .resposta h3{
+    text-align: center;
+    color: #f3d8d8;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #d1, #d2, #d3, #r, #explicacao{
+    margin: 10px;
+  }
+  
+  button, strong{
+    cursor: pointer;
+  }
